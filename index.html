@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Discover Hidden Gems</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<script src="https://kit.fontawesome.com/2664b33955.js" crossorigin="anonymous"></script>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TravelBloom</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Hidden Gems Around the World</h1>
+            <p class="hero-description">
+                Embark on a journey of cultural exploration and uncover breathtaking destinations 
+                that will create memories to last a lifetime. From ancient temples to pristine beaches, 
+                your next adventure awaits.
+            </p>
+            
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search destinations (e.g., beach, temple, Japan)..."
+                    class="search-input"
+                >
+                <button onclick="searchDestinations()" class="search-btn">Search</button>
+            </div>
+            
+            <button class="cta-button">Book Now</button>
+        </div>
+    </section>
+    <section class="recommendations" id="recommendationsSection">
+        <div class="container">
+            <div id="recommendationsContent">
+    
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <p>&copy; 2024 TravelBloom. All rights reserved.</p>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook"></i> Facebook
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i> Instagram
+              </a>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-x-twitter"></i> Twitter
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
