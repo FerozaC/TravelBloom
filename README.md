@@ -2,6 +2,10 @@
 
 TravelBloom is a travel website that helps users discover hidden gems and authentic cultural experiences around the world.
 
+## Live Demo
+
+🌍 [View the live website here](https://travelblooms.netlify.app/) 🌍
+
 ## About the Project
 
 This project was designed for travelers seeking unique, off-the-beaten-path destinations. The goal is to provide an alternative to mainstream travel platforms by focusing on culturally significant and less commercialized locations.
