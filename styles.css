@@ -65,7 +65,7 @@
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("/media/hero_background.jpg") center center / cover no-repeat;
+      url("../media/hero_background.jpg") center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -207,7 +207,7 @@
   .about-section {
     padding: 6rem 0 4rem;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("/media/about_background.jpg") center center / cover no-repeat;
+      url("../media/about_background.jpg") center center / cover no-repeat;
   }
   
   .about-content {
@@ -245,7 +245,7 @@
   .contact-section {
     padding: 6rem 0 4rem;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/media/contact_background.jpg") center center / cover no-repeat;
+    url("../media/contact_background.jpg") center center / cover no-repeat;
   }
   
   .contact-content {
